@@ -1,0 +1,11 @@
+l=[11,22,33,44,55]
+print(f'created list ={l}')
+l.append(66)
+print(f'after added a element to list={l}')
+print(type(l))
+l.remove(44)
+print(f'after removing a element in list={l}')
+l.insert(0,77)
+print(f'element added  at a perticular pos={l}')
+l.extend([88,99,111])
+print(f'added group of elements={l}')
